@@ -1,0 +1,37 @@
+PS C:\Users\madam\Desktop\work\TEST> cd C:\Users\madam\Desktop\work\kadai\Githab\git_challenge
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git init
+Initialized empty Git repository in C:/Users/madam/Desktop/work/kadai/Githab/git_challenge/.git/
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git add hello_world.txt
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> gi
+                                                              
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git commit -m"hello_world.txtを追加" 
+[main (root-commit) 61a8550] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git log
+commit 61a855024b47829be525c79c93e2b26b3dcc7a9d (HEAD -> main)
+Author: yoshito0821-terakoya <madamada_pace@yahoo.co.jp>
+Date:   Mon Feb 26 20:45:04 2024 +0900
+
+    hello_world.txtを追加
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git add hello_world.txt
+                                                              
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git commit -m"日本語を
+追記"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git add hello_world.txt
+
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git commit -m"日本語を
+追記"
+[main 8d679da] 日本語を追記
+ 1 file changed, 2 insertions(+)
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> git log --oneline
+8d679da (HEAD -> main) 日本語を追記
+61a8550 hello_world.txtを追加
+PS C:\Users\madam\Desktop\work\kadai\Githab\git_challenge> 
